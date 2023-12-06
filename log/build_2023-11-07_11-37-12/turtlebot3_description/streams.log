@@ -1,0 +1,61 @@
+[0.302s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/simone/tesi_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simone/tesi_ws/install/turtlebot3_description
+[0.788s] -- The C compiler identification is GNU 11.4.0
+[0.870s] -- The CXX compiler identification is GNU 11.4.0
+[1.133s] -- Detecting C compiler ABI info
+[1.291s] -- Detecting C compiler ABI info - done
+[1.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.304s] -- Detecting C compile features
+[1.304s] -- Detecting C compile features - done
+[1.308s] -- Detecting CXX compiler ABI info
+[1.441s] -- Detecting CXX compiler ABI info - done
+[1.453s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.453s] -- Detecting CXX compile features
+[1.454s] -- Detecting CXX compile features - done
+[1.457s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.651s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.729s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.852s] -- Configuring done
+[1.855s] -- Generating done
+[1.855s] -- Build files have been written to: /home/simone/tesi_ws/build/turtlebot3_description
+[1.861s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/simone/tesi_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simone/tesi_ws/install/turtlebot3_description
+[1.863s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/turtlebot3_description -- -j12 -l12
+[1.897s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/turtlebot3_description -- -j12 -l12
+[1.929s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/turtlebot3_description
+[1.936s] -- Install configuration: ""
+[1.937s] -- Execute custom install script
+[1.937s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/launch/model.launch.py
+[1.955s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[1.958s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/burger.urdf.xacro
+[1.969s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/burger_camera.urdf.xacro
+[1.979s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf.xacro
+[1.991s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[2.007s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/waffle_pi.urdf.xacro
+[2.013s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/burger.gazebo.xacro
+[2.024s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/materials.xacro
+[2.045s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/waffle_pi.gazebo.xacro
+[2.059s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/base.stl
+[2.070s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/ladar.stl
+[2.104s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/left_tire.stl
+[2.104s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/right_tire.stl
+[2.105s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/base.stl
+[2.111s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/ladar.stl
+[2.121s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/left_tire.stl
+[2.133s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/right_tire.stl
+[2.143s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/ros2_control/turtlebot3_system.ros2_control.xacro
+[2.152s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/turtlebot3_description.dsv
+[2.162s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[2.173s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[2.184s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[2.197s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[2.213s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[2.224s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[2.237s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[2.243s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[2.254s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[2.264s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[2.272s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[2.281s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[2.290s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[2.299s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[2.307s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[2.319s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/turtlebot3_description

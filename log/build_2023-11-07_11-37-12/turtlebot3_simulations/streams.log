@@ -1,0 +1,41 @@
+[0.169s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simone/tesi_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/simone/tesi_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simone/tesi_ws/install/turtlebot3_simulations
+[0.269s] -- The C compiler identification is GNU 11.4.0
+[0.651s] -- The CXX compiler identification is GNU 11.4.0
+[0.913s] -- Detecting C compiler ABI info
+[1.033s] -- Detecting C compiler ABI info - done
+[1.040s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.040s] -- Detecting C compile features
+[1.040s] -- Detecting C compile features - done
+[1.043s] -- Detecting CXX compiler ABI info
+[1.174s] -- Detecting CXX compiler ABI info - done
+[1.183s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.183s] -- Detecting CXX compile features
+[1.184s] -- Detecting CXX compile features - done
+[1.187s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.349s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.418s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.503s] -- Configuring done
+[1.506s] -- Generating done
+[1.507s] -- Build files have been written to: /home/simone/tesi_ws/build/turtlebot3_simulations
+[1.512s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simone/tesi_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/simone/tesi_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simone/tesi_ws/install/turtlebot3_simulations
+[1.514s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simone/tesi_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/simone/tesi_ws/build/turtlebot3_simulations -- -j12 -l12
+[1.543s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simone/tesi_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/simone/tesi_ws/build/turtlebot3_simulations -- -j12 -l12
+[1.560s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simone/tesi_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/simone/tesi_ws/build/turtlebot3_simulations
+[1.565s] -- Install configuration: ""
+[1.565s] -- Execute custom install script
+[1.566s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[1.573s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[1.579s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[1.586s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[1.592s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[1.598s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+[1.604s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[1.610s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[1.615s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[1.621s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+[1.626s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+[1.631s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[1.638s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[1.644s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[1.649s] -- Symlinking: /home/simone/tesi_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
+[1.658s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_fake_node:/home/simone/tesi_ws/install/turtlebot3_msgs:/home/simone/tesi_ws/install/turtlebot3_gazebo:/opt/ros/humble LD_LIBRARY_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simone/tesi_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/simone/tesi_ws/build/turtlebot3_simulations

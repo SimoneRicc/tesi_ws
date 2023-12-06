@@ -1,0 +1,37 @@
+[1.294s] Invoking command in '/home/simone/tesi_ws/src/create_dataset': PYTHONPATH=/home/simone/tesi_ws/build/create_dataset/prefix_override:/home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/create_dataset build --build-base /home/simone/tesi_ws/build/create_dataset/build install --record /home/simone/tesi_ws/build/create_dataset/install.log --single-version-externally-managed
+[1.645s] running egg_info
+[1.645s] creating ../../build/create_dataset/create_dataset.egg-info
+[1.646s] writing ../../build/create_dataset/create_dataset.egg-info/PKG-INFO
+[1.646s] writing dependency_links to ../../build/create_dataset/create_dataset.egg-info/dependency_links.txt
+[1.646s] writing entry points to ../../build/create_dataset/create_dataset.egg-info/entry_points.txt
+[1.646s] writing requirements to ../../build/create_dataset/create_dataset.egg-info/requires.txt
+[1.647s] writing top-level names to ../../build/create_dataset/create_dataset.egg-info/top_level.txt
+[1.647s] writing manifest file '../../build/create_dataset/create_dataset.egg-info/SOURCES.txt'
+[1.648s] reading manifest file '../../build/create_dataset/create_dataset.egg-info/SOURCES.txt'
+[1.649s] writing manifest file '../../build/create_dataset/create_dataset.egg-info/SOURCES.txt'
+[1.649s] running build
+[1.649s] running build_py
+[1.649s] creating /home/simone/tesi_ws/build/create_dataset/build
+[1.649s] creating /home/simone/tesi_ws/build/create_dataset/build/lib
+[1.650s] creating /home/simone/tesi_ws/build/create_dataset/build/lib/create_dataset
+[1.650s] copying create_dataset/image_capture.py -> /home/simone/tesi_ws/build/create_dataset/build/lib/create_dataset
+[1.650s] copying create_dataset/__init__.py -> /home/simone/tesi_ws/build/create_dataset/build/lib/create_dataset
+[1.650s] running install
+[1.650s] running install_lib
+[1.651s] creating /home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages/create_dataset
+[1.651s] copying /home/simone/tesi_ws/build/create_dataset/build/lib/create_dataset/image_capture.py -> /home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages/create_dataset
+[1.652s] copying /home/simone/tesi_ws/build/create_dataset/build/lib/create_dataset/__init__.py -> /home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages/create_dataset
+[1.652s] byte-compiling /home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages/create_dataset/image_capture.py to image_capture.cpython-310.pyc
+[1.653s] byte-compiling /home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages/create_dataset/__init__.py to __init__.cpython-310.pyc
+[1.654s] running install_data
+[1.655s] creating /home/simone/tesi_ws/install/create_dataset/share/ament_index
+[1.655s] creating /home/simone/tesi_ws/install/create_dataset/share/ament_index/resource_index
+[1.655s] creating /home/simone/tesi_ws/install/create_dataset/share/ament_index/resource_index/packages
+[1.656s] copying resource/create_dataset -> /home/simone/tesi_ws/install/create_dataset/share/ament_index/resource_index/packages
+[1.656s] copying package.xml -> /home/simone/tesi_ws/install/create_dataset/share/create_dataset
+[1.656s] running install_egg_info
+[1.659s] Copying ../../build/create_dataset/create_dataset.egg-info to /home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages/create_dataset-0.0.0-py3.10.egg-info
+[1.660s] running install_scripts
+[1.682s] Installing image_capture_node script to /home/simone/tesi_ws/install/create_dataset/lib/create_dataset
+[1.683s] writing list of installed files to '/home/simone/tesi_ws/build/create_dataset/install.log'
+[1.749s] Invoked command in '/home/simone/tesi_ws/src/create_dataset' returned '0': PYTHONPATH=/home/simone/tesi_ws/build/create_dataset/prefix_override:/home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/create_dataset build --build-base /home/simone/tesi_ws/build/create_dataset/build install --record /home/simone/tesi_ws/build/create_dataset/install.log --single-version-externally-managed

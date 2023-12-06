@@ -1,0 +1,1 @@
+/home/simone/tesi_ws/src/turtlebot3/turtlebot3_hardware/include/turtlebot3_hardware/opencr_definitions.hpp

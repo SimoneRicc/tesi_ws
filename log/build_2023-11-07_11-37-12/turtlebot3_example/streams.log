@@ -1,0 +1,28 @@
+[1.235s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simone/tesi_ws/build/turtlebot3_example/prefix_override:/home/simone/tesi_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/simone/tesi_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/simone/tesi_ws/build/turtlebot3_example/build --no-deps install_data
+[1.637s] running develop
+[1.877s] running egg_info
+[1.877s] creating turtlebot3_example.egg-info
+[1.878s] writing turtlebot3_example.egg-info/PKG-INFO
+[1.878s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[1.879s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[1.879s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[1.879s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[1.879s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.882s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.883s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.885s] running build_ext
+[1.885s] Creating /home/simone/tesi_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[1.886s] Installing turtlebot3_interactive_marker script to /home/simone/tesi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.886s] Installing turtlebot3_obstacle_detection script to /home/simone/tesi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.887s] Installing turtlebot3_patrol_client script to /home/simone/tesi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.887s] Installing turtlebot3_patrol_server script to /home/simone/tesi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.887s] Installing turtlebot3_position_control_pointop_key script to /home/simone/tesi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.887s] 
+[1.887s] Installed /home/simone/tesi_ws/build/turtlebot3_example
+[1.887s] running install_data
+[1.887s] creating /home/simone/tesi_ws/install/turtlebot3_example/share/ament_index
+[1.888s] creating /home/simone/tesi_ws/install/turtlebot3_example/share/ament_index/resource_index
+[1.888s] creating /home/simone/tesi_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.888s] copying resource/turtlebot3_example -> /home/simone/tesi_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.888s] copying package.xml -> /home/simone/tesi_ws/install/turtlebot3_example/share/turtlebot3_example
+[1.977s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/simone/tesi_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simone/tesi_ws/build/turtlebot3_example/prefix_override:/home/simone/tesi_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/simone/tesi_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/simone/tesi_ws/build/turtlebot3_example/build --no-deps install_data

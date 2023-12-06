@@ -1,0 +1,17 @@
+[1.532s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_teleop': PYTHONPATH=/home/simone/tesi_ws/build/turtlebot3_teleop/prefix_override:/home/simone/tesi_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/simone/tesi_ws/build/turtlebot3_teleop/build --no-deps install_data
+[1.847s] running develop
+[2.058s] running egg_info
+[2.058s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[2.059s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[2.059s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[2.059s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[2.059s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[2.060s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.061s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.064s] running build_ext
+[2.064s] Creating /home/simone/tesi_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[2.065s] Installing teleop_keyboard script to /home/simone/tesi_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.065s] 
+[2.065s] Installed /home/simone/tesi_ws/build/turtlebot3_teleop
+[2.065s] running install_data
+[2.168s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/simone/tesi_ws/build/turtlebot3_teleop/prefix_override:/home/simone/tesi_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/simone/tesi_ws/build/turtlebot3_teleop/build --no-deps install_data

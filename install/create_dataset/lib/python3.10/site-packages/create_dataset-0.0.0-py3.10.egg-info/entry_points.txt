@@ -1,0 +1,4 @@
+[console_scripts]
+image_capture_node = create_dataset.image_capture:main
+reloc_capture_node = create_dataset.reloc_capture:main
+

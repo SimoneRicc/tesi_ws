@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/create_dataset/create_dataset.egg-info/PKG-INFO
+../../build/create_dataset/create_dataset.egg-info/SOURCES.txt
+../../build/create_dataset/create_dataset.egg-info/dependency_links.txt
+../../build/create_dataset/create_dataset.egg-info/entry_points.txt
+../../build/create_dataset/create_dataset.egg-info/requires.txt
+../../build/create_dataset/create_dataset.egg-info/top_level.txt
+../../build/create_dataset/create_dataset.egg-info/zip-safe
+create_dataset/__init__.py
+create_dataset/image_capture.py
+create_dataset/reloc_capture.py
+resource/create_dataset
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
