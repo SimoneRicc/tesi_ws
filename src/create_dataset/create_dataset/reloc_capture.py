@@ -20,7 +20,7 @@ class RelocCaptureNode(Node):
             10)    
         self.bridge = CvBridge() # Convert between ROS Image messages and OpenCV images
         self.image_count = 0
-        self.image_dir = '/home/simone/tesi_ws/src/create_dataset/create_dataset/dataset_relocalization/test_7' # Path to save the images 
+        self.image_dir = '/home/simone/tesi_ws/src/create_dataset/create_dataset/dataset_relocalization_v2/test_6' # Path to save the images 
         self.timer = self.create_timer(1.0/FREQUENCY, self.timer_callback)
         self.image = None
         
