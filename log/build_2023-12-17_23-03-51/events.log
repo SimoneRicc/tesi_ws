@@ -1,0 +1,30 @@
+[0.000000] (-) TimerEvent: {}
+[0.000776] (-) JobUnselected: {'identifier': 'create_dataset'}
+[0.001431] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001789] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001854] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001915] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001972] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002030] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002742] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002922] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.003100] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.003223] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.003276] (-) JobUnselected: {'identifier': 'turtlebot3_hardware'}
+[0.003867] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.004053] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.004218] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.004501] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.004631] (relocalization_pkg) JobQueued: {'identifier': 'relocalization_pkg', 'dependencies': OrderedDict()}
+[0.004716] (relocalization_pkg) JobStarted: {'identifier': 'relocalization_pkg'}
+[0.099359] (-) TimerEvent: {}
+[0.200573] (-) TimerEvent: {}
+[0.301142] (-) TimerEvent: {}
+[0.401841] (-) TimerEvent: {}
+[0.502430] (-) TimerEvent: {}
+[0.603523] (-) TimerEvent: {}
+[0.704816] (-) TimerEvent: {}
+[0.805540] (-) TimerEvent: {}
+[0.865994] (relocalization_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/simone/tesi_ws/src/relocalization_pkg/setup.py", line 1, in <module>\n    from setuptools import find_packages, setup\n  File "/home/simone/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>\n    import setuptools.version\n  File "/home/simone/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>\n    import pkg_resources\n  File "/home/simone/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>\n    def _initialize_master_working_set():\n  File "/home/simone/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside\n    f(*args, **kwargs)\n  File "/home/simone/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set\n    working_set = WorkingSet._build_master()\n  File "/home/simone/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 559, in _build_master\n    ws = cls()\n  File "/home/simone/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 552, in __init__\n    self.add_entry(entry)\n  File "/home/simone/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 609, in add_entry\n    self.add(dist, entry, False)\n  File "/home/simone/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 695, in add\n    keys.append(dist.key)\nKeyboardInterrupt\n\n'}
+[0.867127] (relocalization_pkg) JobEnded: {'identifier': 'relocalization_pkg', 'rc': 'SIGINT'}
+[0.877456] (-) EventReactorShutdown: {}

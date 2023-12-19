@@ -1,0 +1,34 @@
+[0.103s] Invoking command in '/home/simone/tesi_ws/build/relocalization_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/relocalization_pkg -- -j12 -l12
+[0.146s] Invoked command in '/home/simone/tesi_ws/build/relocalization_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/relocalization_pkg -- -j12 -l12
+[0.181s] Invoking command in '/home/simone/tesi_ws/build/relocalization_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/relocalization_pkg
+[0.192s] -- Install configuration: ""
+[0.192s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/launch
+[0.192s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/launch/relocalization.launch.py
+[0.192s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps
+[0.192s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/new_indoor_save.yaml
+[0.192s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/my_map_v2.pgm
+[0.192s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/new_indoor_save.pgm
+[0.192s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/new_indoor_serial.posegraph
+[0.192s] -- Installing: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/my_map_v2.yaml
+[0.194s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/new_indoor_serial.data
+[0.194s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/params
+[0.195s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/params/nav2_params.yaml
+[0.195s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/rviz
+[0.195s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/rviz/relocalization.rviz
+[0.196s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/src
+[0.196s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/ament_index/resource_index/package_run_dependencies/relocalization_pkg
+[0.197s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/ament_index/resource_index/parent_prefix_path/relocalization_pkg
+[0.197s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/environment/ament_prefix_path.sh
+[0.197s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/environment/ament_prefix_path.dsv
+[0.197s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/environment/path.sh
+[0.198s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/environment/path.dsv
+[0.198s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/local_setup.bash
+[0.199s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/local_setup.sh
+[0.199s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/local_setup.zsh
+[0.199s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/local_setup.dsv
+[0.200s] -- Installing: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/package.dsv
+[0.200s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/ament_index/resource_index/packages/relocalization_pkg
+[0.200s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/cmake/relocalization_pkgConfig.cmake
+[0.200s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/cmake/relocalization_pkgConfig-version.cmake
+[0.200s] -- Up-to-date: /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/package.xml
+[0.201s] Invoked command in '/home/simone/tesi_ws/build/relocalization_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/relocalization_pkg

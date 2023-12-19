@@ -1,0 +1,25 @@
+[3.642s] Invoking command in '/home/simone/tesi_ws/src/create_dataset': PYTHONPATH=/home/simone/tesi_ws/build/create_dataset/prefix_override:/home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/create_dataset build --build-base /home/simone/tesi_ws/build/create_dataset/build install --record /home/simone/tesi_ws/build/create_dataset/install.log --single-version-externally-managed
+[4.545s] running egg_info
+[4.548s] writing ../../build/create_dataset/create_dataset.egg-info/PKG-INFO
+[4.550s] writing dependency_links to ../../build/create_dataset/create_dataset.egg-info/dependency_links.txt
+[4.552s] writing entry points to ../../build/create_dataset/create_dataset.egg-info/entry_points.txt
+[4.553s] writing requirements to ../../build/create_dataset/create_dataset.egg-info/requires.txt
+[4.555s] writing top-level names to ../../build/create_dataset/create_dataset.egg-info/top_level.txt
+[4.563s] reading manifest file '../../build/create_dataset/create_dataset.egg-info/SOURCES.txt'
+[4.570s] writing manifest file '../../build/create_dataset/create_dataset.egg-info/SOURCES.txt'
+[4.575s] running build
+[4.576s] running build_py
+[4.578s] copying create_dataset/reloc_capture.py -> /home/simone/tesi_ws/build/create_dataset/build/lib/create_dataset
+[4.583s] running install
+[4.585s] running install_lib
+[4.590s] copying /home/simone/tesi_ws/build/create_dataset/build/lib/create_dataset/reloc_capture.py -> /home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages/create_dataset
+[4.596s] byte-compiling /home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages/create_dataset/reloc_capture.py to reloc_capture.cpython-310.pyc
+[4.601s] running install_data
+[4.607s] running install_egg_info
+[4.613s] removing '/home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages/create_dataset-0.0.0-py3.10.egg-info' (and everything under it)
+[4.634s] Copying ../../build/create_dataset/create_dataset.egg-info to /home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages/create_dataset-0.0.0-py3.10.egg-info
+[4.675s] running install_scripts
+[4.752s] Installing image_capture_node script to /home/simone/tesi_ws/install/create_dataset/lib/create_dataset
+[4.756s] Installing reloc_capture_node script to /home/simone/tesi_ws/install/create_dataset/lib/create_dataset
+[4.756s] writing list of installed files to '/home/simone/tesi_ws/build/create_dataset/install.log'
+[4.925s] Invoked command in '/home/simone/tesi_ws/src/create_dataset' returned '0': PYTHONPATH=/home/simone/tesi_ws/build/create_dataset/prefix_override:/home/simone/tesi_ws/install/create_dataset/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/create_dataset build --build-base /home/simone/tesi_ws/build/create_dataset/build install --record /home/simone/tesi_ws/build/create_dataset/install.log --single-version-externally-managed

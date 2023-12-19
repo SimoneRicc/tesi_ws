@@ -8,7 +8,7 @@ import os
 import numpy as np
 import tf2_ros
 
-FREQUENCY = 4 # Hz
+FREQUENCY = 1.5 # Hz
 
 class ImageCaptureNode(Node):
     def __init__(self):
@@ -23,8 +23,8 @@ class ImageCaptureNode(Node):
         self.bridge = CvBridge() # Convert between ROS Image messages and OpenCV images
         self.image_count = 0
         #self.image_dir = '/home/simone/tesi_ws/src/create_dataset/create_dataset/dataset_not_processed' # Path to save the images
-        self.image_dir = '/home/simone/tesi_ws/src/create_dataset/create_dataset/dataset_not_processed_v2' # Path to save the images
-        
+        #self.image_dir = '/home/simone/tesi_ws/src/create_dataset/create_dataset/dataset_not_processed_v2' # Path to save the images
+        self.image_dir = '/home/simone/tesi_ws/src/relocalization_pkg/reloc_test/test_16' # Path to save the images
         # Subscribe to the position and orientation topic
         self.tf_buffer = tf2_ros.Buffer()
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
@@ -34,7 +34,6 @@ class ImageCaptureNode(Node):
         self.image = None # Image message
         self.pose = None # Pose message
         self.timer = self.create_timer(1.0/FREQUENCY, self.timer_callback)
-
 
     def timer_callback(self):
         if self.image is None: 
@@ -65,8 +64,8 @@ class ImageCaptureNode(Node):
         else:
             self.pose_array = np.vstack((self.pose_array, pose_list))
         
-        self.image_count += 1
         self.get_logger().info('Image {} and Pose saved'.format(self.image_count))
+        self.image_count += 1
              
     def image_callback(self, msg):
         self.image = msg

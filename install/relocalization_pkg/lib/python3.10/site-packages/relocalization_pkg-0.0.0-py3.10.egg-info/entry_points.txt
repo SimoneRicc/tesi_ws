@@ -1,0 +1,5 @@
+[console_scripts]
+reloc_eval_node = relocalization_pkg.reloc_eval:main
+relocalization_node = relocalization_pkg.relocalization_node:main
+show_poses_node = relocalization_pkg.show_poses:main
+
