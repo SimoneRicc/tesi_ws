@@ -1,5 +1,7 @@
 [console_scripts]
+acquire_query_node = relocalization_pkg.acquire_query_node:main
+pose_estimation_node = relocalization_pkg.pose_estimation_node_v2:main
 reloc_eval_node = relocalization_pkg.reloc_eval:main
-relocalization_node = relocalization_pkg.relocalization_node:main
 show_poses_node = relocalization_pkg.show_poses:main
+status_initialpose_node = relocalization_pkg.status_initialpose_node:main
 

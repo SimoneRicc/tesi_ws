@@ -29,9 +29,12 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'relocalization_node = relocalization_pkg.relocalization_node:main',
+            # Nome nodo = pacchetto.nome_file:nome_funzione_main
+            'acquire_query_node = relocalization_pkg.acquire_query_node:main',
+            'pose_estimation_node = relocalization_pkg.pose_estimation_node_v2:main',
             'reloc_eval_node = relocalization_pkg.reloc_eval:main',
-            'show_poses_node = relocalization_pkg.show_poses:main'
+            'show_poses_node = relocalization_pkg.show_poses:main',
+            'converge_to_pose_node = relocalization_pkg.converge_to_pose_node:main',
         ],
     },
 )

@@ -142,10 +142,9 @@ def generate_launch_description():
     ld.add_action(declare_autostart_cmd)
 
     # Add nodes
-    #ld.add_action(start_map_server_cmd)
     ld.add_action(start_ros2_navigation_cmd)
     ld.add_action(ekf_odometry_node)
-    ld.add_action(max_particle_weight_publisher_cmd)
+    #ld.add_action(max_particle_weight_publisher_cmd)
     ld.add_action(start_rviz_cmd)
     
     return ld
