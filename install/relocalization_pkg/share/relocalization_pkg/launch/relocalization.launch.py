@@ -120,12 +120,33 @@ def generate_launch_description():
         parameters=[{'use_sim_time':use_sim_time}],
         arguments=['-d', rviz_config_file])  
      
-    max_particle_weight_publisher_cmd = Node(
+    acquire_query_node = Node(
         package='relocalization_pkg',
-        executable='reloc_eval_node',
-        name='max_particle_weight_publisher',
+        executable='acquire_query_node',
+        name='acquire_query_node',
         output='screen',
-        parameters=[{'use_sim_time': use_sim_time}])
+        parameters=[{'use_sim_time':use_sim_time}])
+    
+    pose_estimation_node = Node(
+        package='relocalization_pkg',
+        executable='pose_estimation_node_v2',
+        name='pose_estimation_node',
+        output='screen',
+        parameters=[{'use_sim_time':use_sim_time}])
+    
+    reloc_eval_node = Node(
+        package='relocalization_pkg',
+        executable='reloc_eval',
+        name='reloc_eval',
+        output='screen',
+        parameters=[{'use_sim_time':use_sim_time}])
+    
+    converge_to_pose_node = Node(
+        package='relocalization_pkg',
+        executable='converge_to_pose_node',
+        name='converge_to_pose_node',
+        output='screen',
+        parameters=[{'use_sim_time':use_sim_time}])
     
     ld = LaunchDescription()
     
@@ -144,7 +165,7 @@ def generate_launch_description():
     # Add nodes
     ld.add_action(start_ros2_navigation_cmd)
     ld.add_action(ekf_odometry_node)
-    #ld.add_action(max_particle_weight_publisher_cmd)
     ld.add_action(start_rviz_cmd)
+
     
     return ld

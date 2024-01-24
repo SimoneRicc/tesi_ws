@@ -1,0 +1,26 @@
+[1.169s] Invoking command in '/home/simone/tesi_ws/src/relocalization_pkg': PYTHONPATH=/home/simone/tesi_ws/build/relocalization_pkg/prefix_override:/home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/relocalization_pkg build --build-base /home/simone/tesi_ws/build/relocalization_pkg/build install --record /home/simone/tesi_ws/build/relocalization_pkg/install.log --single-version-externally-managed
+[1.530s] running egg_info
+[1.532s] writing ../../build/relocalization_pkg/relocalization_pkg.egg-info/PKG-INFO
+[1.532s] writing dependency_links to ../../build/relocalization_pkg/relocalization_pkg.egg-info/dependency_links.txt
+[1.532s] writing entry points to ../../build/relocalization_pkg/relocalization_pkg.egg-info/entry_points.txt
+[1.533s] writing requirements to ../../build/relocalization_pkg/relocalization_pkg.egg-info/requires.txt
+[1.533s] writing top-level names to ../../build/relocalization_pkg/relocalization_pkg.egg-info/top_level.txt
+[1.539s] reading manifest file '../../build/relocalization_pkg/relocalization_pkg.egg-info/SOURCES.txt'
+[1.541s] writing manifest file '../../build/relocalization_pkg/relocalization_pkg.egg-info/SOURCES.txt'
+[1.542s] running build
+[1.542s] running build_py
+[1.542s] running install
+[1.543s] running install_lib
+[1.545s] running install_data
+[1.546s] copying launch/relocalization.launch.py -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/launch
+[1.546s] running install_egg_info
+[1.548s] removing '/home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.548s] Copying ../../build/relocalization_pkg/relocalization_pkg.egg-info to /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg-0.0.0-py3.10.egg-info
+[1.550s] running install_scripts
+[1.579s] Installing acquire_query_node script to /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg
+[1.579s] Installing converge_to_pose_node script to /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg
+[1.579s] Installing pose_estimation_node script to /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg
+[1.579s] Installing reloc_eval_node script to /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg
+[1.579s] Installing show_poses_node script to /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg
+[1.580s] writing list of installed files to '/home/simone/tesi_ws/build/relocalization_pkg/install.log'
+[1.666s] Invoked command in '/home/simone/tesi_ws/src/relocalization_pkg' returned '0': PYTHONPATH=/home/simone/tesi_ws/build/relocalization_pkg/prefix_override:/home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/relocalization_pkg build --build-base /home/simone/tesi_ws/build/relocalization_pkg/build install --record /home/simone/tesi_ws/build/relocalization_pkg/install.log --single-version-externally-managed

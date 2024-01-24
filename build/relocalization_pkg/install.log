@@ -3,15 +3,15 @@
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/show_poses.py
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/__init__.py
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/pose_estimation_node_v2.py
+/home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/converge_to_pose_node.py
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/reloc_eval.py
-/home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/status_initialpose_node.py
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/__pycache__/pose_estimation_node.cpython-310.pyc
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/__pycache__/acquire_query_node.cpython-310.pyc
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/__pycache__/show_poses.cpython-310.pyc
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/__pycache__/__init__.cpython-310.pyc
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/__pycache__/pose_estimation_node_v2.cpython-310.pyc
+/home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/__pycache__/converge_to_pose_node.cpython-310.pyc
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/__pycache__/reloc_eval.cpython-310.pyc
-/home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/__pycache__/status_initialpose_node.cpython-310.pyc
 /home/simone/tesi_ws/install/relocalization_pkg/share/ament_index/resource_index/packages/relocalization_pkg
 /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/package.xml
 /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/launch/relocalization.launch.py
@@ -31,7 +31,7 @@
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg-0.0.0-py3.10.egg-info/entry_points.txt
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg/acquire_query_node
+/home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg/converge_to_pose_node
 /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg/pose_estimation_node
 /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg/reloc_eval_node
 /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg/show_poses_node
-/home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg/status_initialpose_node
