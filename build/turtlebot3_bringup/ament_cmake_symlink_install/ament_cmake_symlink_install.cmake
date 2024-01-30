@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "config" "script" "worlds" "rviz" "models" "DESTINATION" "share/turtlebot3_bringup")
-ament_cmake_symlink_install_directory("/home/simone/tesi_ws/src/turtlebot3/turtlebot3_bringup" DIRECTORY "launch" "config" "script" "worlds" "rviz" "models" "DESTINATION" "share/turtlebot3_bringup")
+# install(DIRECTORY "launch" "config" "script" "worlds" "rviz" "DESTINATION" "share/turtlebot3_bringup")
+ament_cmake_symlink_install_directory("/home/simone/tesi_ws/src/turtlebot3/turtlebot3_bringup" DIRECTORY "launch" "config" "script" "worlds" "rviz" "DESTINATION" "share/turtlebot3_bringup")
 
 # install(FILES "/home/simone/tesi_ws/build/turtlebot3_bringup/ament_cmake_environment_hooks/turtlebot3_bringup.dsv" "DESTINATION" "share/turtlebot3_bringup/environment")
 ament_cmake_symlink_install_files("/home/simone/tesi_ws/src/turtlebot3/turtlebot3_bringup" FILES "/home/simone/tesi_ws/build/turtlebot3_bringup/ament_cmake_environment_hooks/turtlebot3_bringup.dsv" "DESTINATION" "share/turtlebot3_bringup/environment")

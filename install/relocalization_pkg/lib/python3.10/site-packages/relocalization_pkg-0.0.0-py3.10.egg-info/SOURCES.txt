@@ -19,9 +19,8 @@ relocalization_pkg/__init__.py
 relocalization_pkg/acquire_query_node.py
 relocalization_pkg/converge_to_pose_node.py
 relocalization_pkg/pose_estimation_node.py
-relocalization_pkg/pose_estimation_node_v2.py
-relocalization_pkg/reloc_eval.py
-relocalization_pkg/show_poses.py
+relocalization_pkg/reloc_eval_node.py
+relocalization_pkg/show_poses_node.py
 resource/relocalization_pkg
 rviz/relocalization.rviz
 test/test_copyright.py
