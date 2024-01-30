@@ -1,1 +1,3 @@
-/home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Response.msg
+
+# Response
+int32 position

@@ -1,0 +1,41 @@
+[0.613s] Invoking command in '/home/simone/tesi_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/dynamixel_sdk -- -j12 -l12
+[1.698s] [100%] Built target dynamixel_sdk
+[1.702s] Invoked command in '/home/simone/tesi_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/dynamixel_sdk -- -j12 -l12
+[1.786s] Invoking command in '/home/simone/tesi_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/dynamixel_sdk
+[1.812s] -- Install configuration: ""
+[1.813s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include/
+[1.813s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[1.813s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.813s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.814s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.814s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.815s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.815s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.815s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.816s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.816s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.816s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.817s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.817s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.817s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.818s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.818s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.818s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.819s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.819s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.820s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.820s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.820s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.821s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.821s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.821s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.822s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.822s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.823s] -- Installing: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.823s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.823s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.824s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.825s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.825s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.826s] -- Up-to-date: /home/simone/tesi_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.152s] Invoked command in '/home/simone/tesi_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/dynamixel_sdk

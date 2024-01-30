@@ -1,0 +1,26 @@
+[0.438s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.564s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.623s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/turtlebot3_cartographer
+[1.651s] -- Install configuration: ""
+[1.651s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[1.652s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_2d.lua
+[1.652s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[1.652s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.654s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[1.654s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/cartographer.rviz
+[1.655s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.655s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.655s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.655s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.655s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.655s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.655s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.656s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.656s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.656s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.656s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.657s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.657s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.657s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.657s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.838s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/turtlebot3_cartographer

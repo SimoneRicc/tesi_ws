@@ -11,7 +11,7 @@ from launch_ros.substitutions import FindPackageShare
 def generate_launch_description():
     # Parameters
     rviz_file_name = 'relocalization.rviz'
-    map_file_name = 'my_map_v2.yaml'
+    map_file_name = 'indoor.yaml'
     
     # Configaration variables
     pkg_share = FindPackageShare('relocalization_pkg').find('relocalization_pkg')
@@ -70,7 +70,7 @@ def generate_launch_description():
     
     declare_use_composition_cmd = DeclareLaunchArgument(
         name='use_composition',
-        default_value='True',
+        default_value='False',
         description='Whether to use a component container')
     
     declare_params_file_cmd = DeclareLaunchArgument(

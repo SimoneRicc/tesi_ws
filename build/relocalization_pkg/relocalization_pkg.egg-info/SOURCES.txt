@@ -10,6 +10,8 @@ setup.py
 ../../build/relocalization_pkg/relocalization_pkg.egg-info/zip-safe
 config/ekf_odometry.yaml
 launch/relocalization.launch.py
+maps/indoor.pgm
+maps/indoor.yaml
 maps/my_map_v2.pgm
 maps/my_map_v2.yaml
 maps/new_indoor_save.pgm

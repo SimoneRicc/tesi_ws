@@ -5,12 +5,13 @@ from geometry_msgs.msg import Twist
 import time
 
 MAX_WEIGHT_THRESHOLD = 0.00095
+MAX_TIME_THRESHOLD = 10.0
 
 
 class MyNode(Node):
     def __init__(self):
         super().__init__('converge_to_pose_node')
-        
+         
         # Publishers
         self.pub_cmd_vel = self.create_publisher(Twist, '/cmd_vel', 10)
         
@@ -29,15 +30,39 @@ class MyNode(Node):
         # General variables
         self.status_initialpose = False
         self.max_particle_weight = 0.0
+        self.start_time = None
+        self.stop_rotation_published = False
         
         
     def max_particle_weight_callback(self, msg):
         self.max_particle_weight = msg.data
+        time.sleep(0.4) 
         
         if self.max_particle_weight < MAX_WEIGHT_THRESHOLD and self.status_initialpose:
-            pub_msg = Twist()
-            pub_msg.angular.z = 1.0
-            self.pub_cmd_vel.publish(pub_msg)
+            if self.start_time is None:
+                self.start_time = time.time()
+
+            if time.time() - self.start_time < MAX_TIME_THRESHOLD:
+                pub_msg = Twist()
+                pub_msg.angular.z = 1.0
+                self.pub_cmd_vel.publish(pub_msg)
+                self.stop_rotation_published = False
+            else:
+                if not self.stop_rotation_published:
+                    self.get_logger().info("Max time threshold exceeded")
+                    self.stop_rotation()
+                    self.stop_rotation_published = True
+        else:
+            if self.start_time is not None and time.time() - self.start_time < MAX_TIME_THRESHOLD:
+                self.get_logger().info("Successfully converged within the time threshold")
+            self.stop_rotation()
+            self.start_time = None
+            self.stop_rotation_published = False
+
+    def stop_rotation(self):
+        pub_msg = Twist()
+        pub_msg.angular.z = 0.0
+        self.pub_cmd_vel.publish(pub_msg)
 
         
     def status_initialpose_callback(self, msg):

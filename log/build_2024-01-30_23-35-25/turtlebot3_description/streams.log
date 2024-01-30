@@ -1,0 +1,48 @@
+[1.156s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/turtlebot3_description -- -j12 -l12
+[3.406s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/turtlebot3_description -- -j12 -l12
+[3.530s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/turtlebot3_description
+[3.550s] -- Install configuration: ""
+[3.564s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/launch
+[3.566s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/launch/model.launch.py
+[3.567s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/rviz
+[3.568s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[3.568s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf
+[3.568s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf.xacro
+[3.568s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/burger.urdf.xacro
+[3.568s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/waffle_pi.urdf.xacro
+[3.569s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[3.572s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/burger_camera.urdf.xacro
+[3.573s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo
+[3.573s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/waffle_pi.gazebo.xacro
+[3.573s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/burger.gazebo.xacro
+[3.575s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/gazebo/materials.xacro
+[3.575s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes
+[3.576s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi
+[3.577s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/left_tire.stl
+[3.578s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/ladar.stl
+[3.578s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/right_tire.stl
+[3.578s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/waffle_pi/base.stl
+[3.578s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger
+[3.580s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/left_tire.stl
+[3.580s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/ladar.stl
+[3.580s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/right_tire.stl
+[3.580s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/burger/base.stl
+[3.581s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/ros2_control
+[3.581s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/ros2_control/turtlebot3_system.ros2_control.xacro
+[3.581s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/turtlebot3_description.dsv
+[3.581s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[3.581s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[3.581s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[3.581s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[3.581s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[3.582s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[3.582s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[3.582s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[3.582s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[3.582s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[3.582s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[3.582s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[3.582s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[3.582s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[3.583s] -- Up-to-date: /home/simone/tesi_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[3.886s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/turtlebot3_description

@@ -199,8 +199,8 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
   /home/simone/tesi_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_write.h \
   /home/simone/tesi_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_read.h \
   /home/simone/tesi_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h \
-  /home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/msg/set_position.hpp \
-  /home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp \
+  /home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp \
+  /home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
@@ -218,8 +218,8 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
   /usr/include/c++/11/stdexcept \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
-  /home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp \
-  /home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp \
+  /home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp \
+  /home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/ios \
@@ -257,10 +257,10 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
-  /home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/srv/get_position.hpp \
-  /home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp \
-  /home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp \
-  /home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp \
+  /home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp \
+  /home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp \
+  /home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp \
+  /home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -770,6 +770,8 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
@@ -808,6 +810,8 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:
@@ -834,6 +838,8 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
@@ -845,14 +851,6 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/srv/get_position.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp:
-
-/usr/include/c++/11/shared_mutex:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
@@ -926,6 +924,10 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /usr/include/c++/11/sstream:
 
+/home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
+
 /usr/include/c++/11/stdexcept:
 
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
@@ -952,15 +954,9 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /usr/include/c++/11/pstl/execution_defs.h:
 
-/home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp:
-
 /usr/include/c++/11/bits/stl_algo.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
-
-/home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/msg/set_position.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+/opt/ros/humble/include/rcl/rcl/publisher.h:
 
 /home/simone/tesi_ws/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h:
 
@@ -999,14 +995,6 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
-
-/home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
-
-/home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -1047,6 +1035,10 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
+
+/usr/include/c++/11/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -1168,8 +1160,6 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /usr/include/c++/11/array:
 
-/home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp:
-
 /usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/c++/11/streambuf:
@@ -1187,6 +1177,8 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
+
+/home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp:
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
@@ -1217,6 +1209,8 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 /usr/include/c++/11/bits/stl_construct.h:
 
 /usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
@@ -1352,6 +1346,10 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /usr/include/c++/11/tr1/gamma.tcc:
 
+/home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
 /usr/include/c++/11/bits/node_handle.h:
 
 /home/simone/tesi_ws/src/turtlebot3/utils/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:
@@ -1378,11 +1376,9 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /usr/include/c++/11/unordered_set:
 
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
 
-/usr/include/c++/11/bits/ostream_insert.h:
-
-/home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/c++/11/backward/auto_ptr.h:
 
@@ -1486,12 +1482,6 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/home/simone/tesi_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp:
-
 /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
 
 /usr/include/c++/11/bits/refwrap.h:
@@ -1546,6 +1536,10 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
+/home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp:
+
+/home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
@@ -1569,6 +1563,12 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
+
+/opt/ros/humble/include/rcl/rcl/arguments.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
@@ -1669,6 +1669,8 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
+
+/home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
 
@@ -1802,6 +1804,8 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /opt/ros/humble/include/rcl/rcl/node_options.h:
 
+/home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
 
 /opt/ros/humble/include/rcl/rcl/domain_id.h:
@@ -1822,6 +1826,8 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /opt/ros/humble/include/rmw/rmw/event.h:
 
+/home/simone/tesi_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp:
+
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
@@ -1829,8 +1835,6 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 /usr/include/c++/11/clocale:
 
 /opt/ros/humble/include/rcl/rcl/event.h:
-
-/opt/ros/humble/include/rcl/rcl/publisher.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp:
 
@@ -1887,12 +1891,6 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
-
-/opt/ros/humble/include/rcl/rcl/arguments.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
 
@@ -1984,6 +1982,10 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp:
+
+/usr/include/c++/11/shared_mutex:
+
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
@@ -1993,8 +1995,6 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
@@ -2018,11 +2018,11 @@ CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o: /home/simone/tesi_ws/s
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
 
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+
 /opt/ros/humble/include/rmw/rmw/time.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 

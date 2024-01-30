@@ -17,8 +17,10 @@
 /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/rviz/relocalization.rviz
 /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/new_indoor_save.yaml
 /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/my_map_v2.yaml
+/home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/indoor.yaml
 /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/my_map_v2.pgm
 /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/new_indoor_save.pgm
+/home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps/indoor.pgm
 /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/reloc_test
 /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/config/ekf_odometry.yaml
 /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg-0.0.0-py3.10.egg-info/top_level.txt

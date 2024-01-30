@@ -8,8 +8,8 @@ import os
 import numpy as np
 import tf2_ros
 
-FREQUENCY = 1.5 # Hz
-
+FREQUENCY = 5 # Hz
+ 
 class ImageCaptureNode(Node):
     def __init__(self):
         super().__init__('image_capture_node')
@@ -23,8 +23,8 @@ class ImageCaptureNode(Node):
         self.bridge = CvBridge() # Convert between ROS Image messages and OpenCV images
         self.image_count = 0
         #self.image_dir = '/home/simone/tesi_ws/src/create_dataset/create_dataset/dataset_not_processed' # Path to save the images
-        #self.image_dir = '/home/simone/tesi_ws/src/create_dataset/create_dataset/dataset_not_processed_v2' # Path to save the images
-        self.image_dir = '/home/simone/tesi_ws/src/relocalization_pkg/reloc_test/test_16' # Path to save the images
+        self.image_dir = '/home/simone/tesi_ws/src/create_dataset/create_dataset/dataset_not_processed_v3' # Path to save the images
+        #self.image_dir = '/home/simone/tesi_ws/src/relocalization_pkg/reloc_test/test_16' # Path to save the images
         # Subscribe to the position and orientation topic
         self.tf_buffer = tf2_ros.Buffer()
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
@@ -71,7 +71,7 @@ class ImageCaptureNode(Node):
         self.image = msg
         
     def destroy_node(self):
-        np.save(os.path.join(self.image_dir, 'pose_array_v2'), self.pose_array)
+        np.save(os.path.join(self.image_dir, 'pose_array_v3'), self.pose_array)
         super().destroy_node()
   
 def main(args=None):

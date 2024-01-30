@@ -1,0 +1,69 @@
+[2.549s] Invoking command in '/home/simone/tesi_ws/src/relocalization_pkg': PYTHONPATH=/home/simone/tesi_ws/build/relocalization_pkg/prefix_override:/home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/relocalization_pkg build --build-base /home/simone/tesi_ws/build/relocalization_pkg/build install --record /home/simone/tesi_ws/build/relocalization_pkg/install.log --single-version-externally-managed
+[2.972s] running egg_info
+[2.972s] creating ../../build/relocalization_pkg/relocalization_pkg.egg-info
+[2.980s] writing ../../build/relocalization_pkg/relocalization_pkg.egg-info/PKG-INFO
+[2.980s] writing dependency_links to ../../build/relocalization_pkg/relocalization_pkg.egg-info/dependency_links.txt
+[2.980s] writing entry points to ../../build/relocalization_pkg/relocalization_pkg.egg-info/entry_points.txt
+[2.981s] writing requirements to ../../build/relocalization_pkg/relocalization_pkg.egg-info/requires.txt
+[2.981s] writing top-level names to ../../build/relocalization_pkg/relocalization_pkg.egg-info/top_level.txt
+[2.981s] writing manifest file '../../build/relocalization_pkg/relocalization_pkg.egg-info/SOURCES.txt'
+[2.991s] reading manifest file '../../build/relocalization_pkg/relocalization_pkg.egg-info/SOURCES.txt'
+[2.991s] writing manifest file '../../build/relocalization_pkg/relocalization_pkg.egg-info/SOURCES.txt'
+[2.992s] running build
+[2.992s] running build_py
+[2.992s] creating /home/simone/tesi_ws/build/relocalization_pkg/build
+[2.992s] creating /home/simone/tesi_ws/build/relocalization_pkg/build/lib
+[2.992s] creating /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg
+[2.992s] copying relocalization_pkg/pose_estimation_node.py -> /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg
+[2.992s] copying relocalization_pkg/show_poses_node.py -> /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg
+[2.992s] copying relocalization_pkg/acquire_query_node.py -> /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg
+[2.992s] copying relocalization_pkg/reloc_eval_node.py -> /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg
+[2.993s] copying relocalization_pkg/__init__.py -> /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg
+[2.993s] copying relocalization_pkg/converge_to_pose_node.py -> /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg
+[2.993s] running install
+[2.999s] running install_lib
+[3.003s] creating /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg
+[3.007s] copying /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg/pose_estimation_node.py -> /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg
+[3.007s] copying /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg/show_poses_node.py -> /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg
+[3.007s] copying /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg/acquire_query_node.py -> /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg
+[3.008s] copying /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg/reloc_eval_node.py -> /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg
+[3.008s] copying /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg/__init__.py -> /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg
+[3.008s] copying /home/simone/tesi_ws/build/relocalization_pkg/build/lib/relocalization_pkg/converge_to_pose_node.py -> /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg
+[3.008s] byte-compiling /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/pose_estimation_node.py to pose_estimation_node.cpython-310.pyc
+[3.020s] byte-compiling /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/show_poses_node.py to show_poses_node.cpython-310.pyc
+[3.021s] byte-compiling /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/acquire_query_node.py to acquire_query_node.cpython-310.pyc
+[3.021s] byte-compiling /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/reloc_eval_node.py to reloc_eval_node.cpython-310.pyc
+[3.021s] byte-compiling /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/__init__.py to __init__.cpython-310.pyc
+[3.022s] byte-compiling /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg/converge_to_pose_node.py to converge_to_pose_node.cpython-310.pyc
+[3.022s] running install_data
+[3.022s] creating /home/simone/tesi_ws/install/relocalization_pkg/share/ament_index
+[3.023s] creating /home/simone/tesi_ws/install/relocalization_pkg/share/ament_index/resource_index
+[3.023s] creating /home/simone/tesi_ws/install/relocalization_pkg/share/ament_index/resource_index/packages
+[3.023s] copying resource/relocalization_pkg -> /home/simone/tesi_ws/install/relocalization_pkg/share/ament_index/resource_index/packages
+[3.023s] copying package.xml -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg
+[3.024s] creating /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/launch
+[3.024s] copying launch/relocalization.launch.py -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/launch
+[3.024s] creating /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/params
+[3.024s] copying params/nav2_params.yaml -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/params
+[3.024s] creating /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/rviz
+[3.025s] copying rviz/relocalization.rviz -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/rviz
+[3.025s] creating /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps
+[3.025s] copying maps/new_indoor_save.yaml -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps
+[3.025s] copying maps/my_map_v2.yaml -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps
+[3.026s] copying maps/indoor.yaml -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps
+[3.026s] copying maps/my_map_v2.pgm -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps
+[3.026s] copying maps/new_indoor_save.pgm -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps
+[3.030s] copying maps/indoor.pgm -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/maps
+[3.030s] creating /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/reloc_test
+[3.030s] creating /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/config
+[3.030s] copying config/ekf_odometry.yaml -> /home/simone/tesi_ws/install/relocalization_pkg/share/relocalization_pkg/config
+[3.030s] running install_egg_info
+[3.030s] Copying ../../build/relocalization_pkg/relocalization_pkg.egg-info to /home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages/relocalization_pkg-0.0.0-py3.10.egg-info
+[3.030s] running install_scripts
+[3.045s] Installing acquire_query_node script to /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg
+[3.045s] Installing converge_to_pose_node script to /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg
+[3.045s] Installing pose_estimation_node script to /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg
+[3.045s] Installing reloc_eval_node script to /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg
+[3.045s] Installing show_poses_node script to /home/simone/tesi_ws/install/relocalization_pkg/lib/relocalization_pkg
+[3.046s] writing list of installed files to '/home/simone/tesi_ws/build/relocalization_pkg/install.log'
+[3.414s] Invoked command in '/home/simone/tesi_ws/src/relocalization_pkg' returned '0': PYTHONPATH=/home/simone/tesi_ws/build/relocalization_pkg/prefix_override:/home/simone/tesi_ws/install/relocalization_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/relocalization_pkg build --build-base /home/simone/tesi_ws/build/relocalization_pkg/build install --record /home/simone/tesi_ws/build/relocalization_pkg/install.log --single-version-externally-managed

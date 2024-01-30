@@ -1,3 +1,0 @@
-[3.781s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_teleop': PYTHONPATH=/home/simone/tesi_ws/build/turtlebot3_teleop/prefix_override:/home/simone/tesi_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/simone/tesi_ws/build/turtlebot3_teleop/build
-[4.824s] running develop
-[5.683s] Removing /home/simone/tesi_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)

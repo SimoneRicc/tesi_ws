@@ -8,12 +8,12 @@ class PosePublisherNode(Node):
         super().__init__('pose_publisher_node')
         self.publisher_ = self.create_publisher(PoseArray, 'pose_array', 10)
         timer_period = 1  # seconds
-        #self.timer = self.create_timer(timer_period, self.timer_callback)
+        self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
         # Load the numpy array of poses
-        self.poses = np.load('/home/simone/tesi_ws/src/create_dataset/create_dataset/dataset_processed_v2/filtered_dataset_v2.npy')
-
+        self.poses = np.load('/home/simone/tesi_ws/src/create_dataset/create_dataset/dataset_processed_v3/filtered_dataset_v3.npy')
+ 
         # Create the PoseArray
         self.pose_array = PoseArray()
         self.publisher_.publish(self.pose_array)

@@ -18,7 +18,7 @@ class RelocEvalNode(Node):
             '/particle_cloud',
             self.max_weight_particle_callback,
             qos_profile) 
-        
+           
         self.subscription_v2 = self.create_subscription(
             ParticleCloud,  
             '/particlecloud',

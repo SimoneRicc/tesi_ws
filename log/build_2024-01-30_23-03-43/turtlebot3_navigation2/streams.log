@@ -1,0 +1,52 @@
+[0.318s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake /home/simone/tesi_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/simone/tesi_ws/install/turtlebot3_navigation2
+[1.687s] -- The C compiler identification is GNU 11.4.0
+[1.688s] -- The CXX compiler identification is GNU 11.4.0
+[1.688s] -- Detecting C compiler ABI info
+[1.688s] -- Detecting C compiler ABI info - done
+[1.688s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.689s] -- Detecting C compile features
+[1.689s] -- Detecting C compile features - done
+[1.689s] -- Detecting CXX compiler ABI info
+[1.689s] -- Detecting CXX compiler ABI info - done
+[1.690s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.690s] -- Detecting CXX compile features
+[1.691s] -- Detecting CXX compile features - done
+[1.691s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.691s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.691s] -- Configuring done
+[1.692s] -- Generating done
+[1.692s] -- Build files have been written to: /home/simone/tesi_ws/build/turtlebot3_navigation2
+[1.706s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake /home/simone/tesi_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/simone/tesi_ws/install/turtlebot3_navigation2
+[1.708s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[1.754s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --build /home/simone/tesi_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[2.010s] Invoking command in '/home/simone/tesi_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/turtlebot3_navigation2
+[2.024s] -- Install configuration: ""
+[2.024s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[2.024s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[2.024s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2_use_sim_time.launch.py
+[2.024s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[2.024s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[2.024s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[2.024s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[2.024s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_use_sim_time.yaml
+[2.025s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi_use_sim_time.yaml
+[2.025s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[2.025s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[2.025s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[2.025s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/navigation2.rviz
+[2.025s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[2.025s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[2.025s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[2.025s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[2.025s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[2.026s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[2.026s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[2.026s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[2.026s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[2.027s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[2.027s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[2.028s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[2.028s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[2.028s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[2.029s] -- Installing: /home/simone/tesi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[2.151s] Invoked command in '/home/simone/tesi_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/tesi_ws/install/turtlebot3_teleop:/home/simone/tesi_ws/install/turtlebot3_example:/home/simone/tesi_ws/install/relocalization_pkg:/home/simone/tesi_ws/install/create_dataset:/opt/ros/humble /usr/bin/cmake --install /home/simone/tesi_ws/build/turtlebot3_navigation2

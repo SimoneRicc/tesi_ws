@@ -10,7 +10,7 @@ import cv2
 import os
 from cv_bridge import CvBridge, CvBridgeError
 
-FREQUENCY_QUERY = 1.5 # Hz
+FREQUENCY_QUERY = 2.5  # Hz
 TWIST_ANGULAR_Z = 1.0 # rad/s
 SAVE_PATH = "/home/simone/tesi_ws/src/relocalization_pkg/reloc_test/test_17/"
  

@@ -29,7 +29,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # Nome nodo = pacchetto.nome_file:nome_funzione_main
+            # Nome nodo = pacchetto.nome_file_python:nome_funzione_main
             'acquire_query_node = relocalization_pkg.acquire_query_node:main',
             'pose_estimation_node = relocalization_pkg.pose_estimation_node:main',
             'reloc_eval_node = relocalization_pkg.reloc_eval_node:main',
