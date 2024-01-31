@@ -43,8 +43,6 @@ class PoseEstimationNode(Node):
         self.query_count = 0
         self.relocalization_status = False
         self.all_indexes_top_poses = []
-        self.get_logger().info(f'{type(self.all_indexes_top_poses)}')
-        
         
         # Databases
         self.filtered_database = np.load(os.path.join(DATABASE_PATH, DATABASE_FILE))
@@ -58,6 +56,8 @@ class PoseEstimationNode(Node):
         self.initial_pose_pub = self.create_publisher(PoseWithCovarianceStamped, '/initialpose', 10)
         self.status_initialpose_pub = self.create_publisher(Bool, '/status_initialpose', 10)
     
+        self.get_logger().info('Pose estimation node started! Waiting for query images...')
+        
     # CALLBACKS
     def query_callback(self, msg):
         # Acquire query image

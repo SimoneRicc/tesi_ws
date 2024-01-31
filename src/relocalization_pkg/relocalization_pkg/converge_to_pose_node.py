@@ -8,7 +8,7 @@ MAX_WEIGHT_THRESHOLD = 0.00095
 MAX_TIME_THRESHOLD = 10.0
 
 
-class MyNode(Node):
+class ConvergeToPose(Node):
     def __init__(self):
         super().__init__('converge_to_pose_node')
          
@@ -52,6 +52,7 @@ class MyNode(Node):
                     self.get_logger().info("Max time threshold exceeded")
                     self.stop_rotation()
                     self.stop_rotation_published = True
+                    self.status_initialpose = False
         else:
             if self.start_time is not None and time.time() - self.start_time < MAX_TIME_THRESHOLD:
                 self.get_logger().info("Successfully converged within the time threshold")
@@ -70,7 +71,7 @@ class MyNode(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = MyNode()
+    node = ConvergeToPose()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
